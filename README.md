@@ -1,4 +1,4 @@
-http://suhas2go.github.io is now live! 
+https://suhas2go.github.io is now live! 
 
 A simple blog built using jekyll and github pages. I'm using the beautiful lanyon theme by Mark Otto. I've tweaked the side bar to add my gravatar and font awesome icons.
 
