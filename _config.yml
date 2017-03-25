@@ -4,9 +4,9 @@ permalink:           pretty
 
 # Setup
 title:               suhas2go
-tagline:             'Mathematics Undergrad | IIT Guwahati'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 
+tagline:             'What the magic of free time can do'
+description:         'Mathematics Undergrad <br /> IIT Guwahati'
+url:                 https://suhas2go.github.io
 baseurl:             ''
 paginate:            5
 
@@ -15,9 +15,15 @@ author:
   name:              Suhas Nayak
   url:               https://twitter.com/coutsuhas
   email:             suhas2go@gmail.com
+  github:            suhas2go
+  linkedin:          nsuhas  
+  stackoverflow_id:  6493646  
+  email_md5:         57bee3d648e25717b65b14930844cc23                    
 
 # Custom vars
 version:             1.0.0
 
 # Gems
 gems: [jekyll-paginate]
+
+github repo:          https://github.com/suhas2go/suhas2go.github.io
