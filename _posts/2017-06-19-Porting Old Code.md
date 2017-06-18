@@ -22,6 +22,7 @@ in my commit messages.
 Finally, at the end of all this I was able to get an example interface for the alpha filter built using glade to work via the above mechanism. 
 
 ![Glade UI File]({{ site.url }}/assets/port1.png)
+
 ![Working UI]({{ site. url }}/assets/port2.png)
 
 The exact API will, most likely, undergo change. I will describe it in detail in my next post in a couple of weeks. You can checkout my work so far [D1744](https://phabricator.freedesktop.org/D1744) and [D1745](https://phabricator.freedesktop.org/D1745), feel free to ping me on #pitivi on freenode :)
