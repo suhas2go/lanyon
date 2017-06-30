@@ -19,8 +19,9 @@ title: Home
 	{% else %}
 	{% assign categories = page.categories %}
 	{% endif %}
+	{{ post.date | date_to_string }} 
 	{% for category in categories %}
-	{{ post.date | date_to_string }} | <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+	| <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
 	{% unless forloop.last %}&nbsp;{% endunless %}
 	{% endfor %}
 	</div>

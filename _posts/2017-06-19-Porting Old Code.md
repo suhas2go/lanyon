@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Not rebasing an old feature branch
-category: GNOME
+category: [GNOME, Pitivi]
 comments: true
 ---
 
