@@ -1,11 +1,11 @@
 ---
 layout: post
 title: GSoC '17 - Final Report
-category: opensource
+category: [GNOME, Pitivi]
 comments: true
 ---
 
-This summer as part of Google Summer of Code 2017, I worked on the project "Pitivi: Color correction interface using three chromatic wheels". As GSoC concludes, I'm writing this post as part of my final submission.
+This summer as part of Google Summer of Code 2017, I worked on the project ["Pitivi: Color correction interface using three chromatic wheels"](https://wiki.gnome.org/Outreach/SummerOfCode/2017/Projects/SuhasNayak_PitiviColorCorrectionInterface). As GSoC concludes, I'm writing this post as part of my final submission.
 
 ## Status of the project
 
@@ -18,9 +18,9 @@ And finally, I worked on the task [T2372](https://phabricator.freedesktop.org/T2
 
 ![color wheel widget]({{ site.url }}/assets/color_wheel.png){:.center-image}
 
-However, we decided to use the GtkHSV for now instead of my implementation because although GtkHSV has now been deprecated it is still available as part of Gtk3 and is far more superior than my basic color wheel. Perhaps, it would be nice if we got the widget from upstream and if not, the alternative is to improve my implemenation of the color wheel widget which can be found [here](https://github.com/suhas2go/Basic-GTK-Color-Wheel).
+However, we decided to use the GtkHSV for now instead of my implementation because although GtkHSV has now been deprecated it is still available as part of Gtk3 and is far more superior than my basic color wheel. Perhaps, it would be nice if we got the widget from upstream and if not, the alternative is to improve my implemenation of the color wheel widget which can be found [here](https://github.com/suhas2go/Basic-GTK-Color-Wheel). [D1838](https://phabricator.freedesktop.org/D1838) holds the new custom UI for the 3 point color balance effect.
 
-I was able to achieve one of the stretch goals of GSoC, task [T7810](https://phabricator.freedesktop.org/T7810) to implement color picking functionality. Differential revision [D1855](https://phabricator.freedesktop.org/D1855) introduces the ColorPickerButton which allows picking color from anywhere on the screen. As a result, the ColorPickerButton can be integrated in many places in Pitivi! :) [D1838](https://phabricator.freedesktop.org/D1838) holds the new custom UI for the 3 point color balance effect
+I was able to achieve one of the stretch goals of GSoC, task [T7810](https://phabricator.freedesktop.org/T7810) to implement color picking functionality. Differential revision [D1855](https://phabricator.freedesktop.org/D1855) introduces the ColorPickerButton which allows picking color from anywhere on the screen. As a result, the ColorPickerButton can be integrated in many places in Pitivi! :)
 
 To summarise, here are the links to my work:
 
@@ -48,7 +48,7 @@ The final product of my Google Summer of Code looks like this!
 
 ## Final Words
 
-I would like to thank my mentor Mathieu Duponchelle (Mathieu_Du) for guiding me. He's been really encouraging and thoughtful. A special thank you to both the current maintianers, right from when I started contributing to Pitivi earlier this year, Alexandru Băluț (aleb) and Thibault Saunier (thiblahute) have been extremely helpful. It's been wonderful working with these people at Pitivi. I've had a wonderful journey so far. Ofcourse, this is not the end. My work for GSoC introduces so much more possibility and I would like to explore and continue contributing :)
+I would like to thank my mentor Mathieu Duponchelle (Mathieu_Du) for guiding me. He's been really encouraging and thoughtful. A special thank you to both the current maintianers, right from when I started contributing to Pitivi earlier this year, Alexandru Băluț (aleb) and Thibault Saunier (thiblahute) have been extremely helpful. It's been great working with these people at Pitivi. I've had a wonderful journey so far. Ofcourse, this is not the end. My work for GSoC introduces so much more possibility and I would like to explore and continue contributing :)
 
 Until next time.
 
