@@ -7,6 +7,7 @@ title:               suhas2go
 tagline:             'What the magic of free time can do'
 description:         'Mathematics Undergrad <br /> IIT Guwahati'
 url:                 http://suhas2go.github.io
+highlighter:         rouge
 baseurl:             ''
 paginate:            5
 
@@ -23,8 +24,8 @@ author:
 # Custom vars
 version:             1.0.0
 
-# Gems
-gems: [jekyll-paginate]
+# Plugins (previously called Gems)
+plugins: [jekyll-paginate]
 
 github repo:          https://github.com/suhas2go/suhas2go.github.io
 
